@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <style>
+    font-family{'Poppins', sans-serif;}
+    .fade-text{
+      font-size: 72px;
+      background: linear-gradient(to right, #CCFFFF, #FFCCCC);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .images{
+      max-width: 100%;
+      height: auto;
+      margin: 2%;
+      border-radius: 2%;
+    }
+    .container{
+      display: flex;
+      justify-content: space-evenly;
+      text-align: center;
+    }
+    .images2{
+      height: 25vw;
+      width: 25vw;
+      object-fit: cover;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+    .center{
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color: #111;
+      color: #CCFFFF;
+    }
+  </style>
+</head>
+<body>
+  width: 100%;
+	height: 100vh;
+	display: flex, grid;
+	align-items: center;
+	justify-content: center;
+  <div></div>
+    <h1 class="fade-text center">Courtney Dauwalter</h2>
+    <nav>
+      <ul>
+        <li><a href="#aboutHer">About Her</a></li>
+        <li><a href="#runTime">Run Time</a></li>
+        <li><a href="#theMental">The Mental</a></li>
+        <li><a href="#theDiet">Diet</a></li>
+      </ul>
+    </nav>
+    <img class="images center" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dauwalter-wser-paul-nelson-1533238049.jpg?resize=480:*" alt="Courtney Running">
+    <h2 id="aboutHer"> The Woman That Can Go The Distance</h2>
+    <p> Courtney, born in 1985, was raised in Minnesota and competed in track, cross-country, and nordic skiing in high school. Dauwalter won the 2017 edition of the Moab 240 race in 2 days, 9 hours, and 59 minutes, finishing first overall and beating the second-place finisher by more than 10 hours. This secured her place as the world's leading long distance runner. </p>
+    <form>
+      <h3 id="runTime"> What's your fastest time for a 5k (3.1 mi) run?</h3>
+      <input name=runTime type=time min="0:00" max="100:59">
+      <button type="submit">Submit</button>
+    </form>
+    <div class="container">
+      <img class="images2" src="http://nebula.wsimg.com/c9be6690bb02aec9656b7412f9b9184c?AccessKeyId=F799BF4F72D49386EC33&disposition=0&alloworigin=1">
+      <img class="images2" src="https://lh3.googleusercontent.com/proxy/CBURiGs_TLuRjBFLuNoz8q0t5tgd92Jn6XAsDKhFH8S13i2AHLg8UzpPCvbgqhk5GY6D9wwb7PSdmUHA4P2H8LAvh1X8AiKDXINxwYfdcdddTldP6SIzdajAHP08rfgg7rP9cTPqRaOQwRhRcarD">
+      <img class="images2" src="https://i.scdn.co/image/1caef862d9364cca68d0fe1707d53495f1e61380">
+    </div>
+    <h3 id="theMental">The Mental Aspect</h3>
+    <p>“I think the mental aspect is huge!” says Courtney. “For me, this is the most interesting part of ultrarunning. During my first 100-mile attempt, I ended up dropping out of the race around mile 60 because my legs hurt really bad and I didn't know how to shift gears to the mental game. Now, when it becomes physically painful, which is inevitable, I try to remind myself that by staying tough in my head, by not giving up on myself and by continuing to push forward, I can overpower the physical pain.”</p>
+    <h3 id="theDiet">Courtney's Diet</h3>
+    <p>“There’s nothing strict about my diet at all,” says Courtney. “I eat without restrictions on any food groups. I don't follow a training plan either. Both of these things mean I’m free to listen to my body every day and go from there. What I'm craving, how my legs and mind are feeling are taken into account each morning as I plan my runs and food for the day. "Before races, I go for anything that is convenient. Often, that means pizza or a Chipotle burrito bowl. During races, I stick with my tried-and-true race foods – Honey Stinger waffles/chews, Tailwind nutrition snacks and mashed potatoes – unless the race is really long. In races over 100 miles, I have added in quesadillas, pancakes, noodle soup, and McDonald's double cheeseburgers. Post-race, the first thing I like to have is a beer. And after that, nachos!"</p>
+    <h4 id="wikiLink"> Read more about Courtney by following <a href="https://en.wikipedia.org/wiki/Courtney_Dauwalter#:~:text=In%202018%2C%20Dauwalter%20won%20the,a%20woman%20in%20the%20race.&text=In%202020%2C%20Dauwalter%20won%20the,52%20minutes%2C%20and%2029%20seconds."> this Wikipedia link! </a></h4>
+    <footer class="container">Copyrighted by hannahisprogramming ©</footer>
+  </div>
+</body>
+</html>
